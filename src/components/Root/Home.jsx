@@ -11,8 +11,8 @@ const Home = () => {
             <section>
             <Banner setDonations={setDonations}></Banner>
             </section>
-            
-            <section>
+
+            <section  className="max-w-6xl mx-auto my-20">
                 <DonationContainer donations={donations}></DonationContainer>
             </section>
         </>

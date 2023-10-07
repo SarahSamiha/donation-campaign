@@ -10,7 +10,7 @@ const Navbar = () => {
             })}>
             Home
         </NavLink></li>
-        <li><NavLink to='/donation'
+        <li><NavLink to='/donations'
             style={({ isActive }) => ({
                 color: isActive ? '#fff' : '#545e6f',
                 background: isActive ? '#FF444A' : '#fff',
