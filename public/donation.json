@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/QQSrVKK/Rectangle-4287-2.png",
+        "large_picture": "https://i.ibb.co/FWw0T0w/Food.png",
+        "title": "Supporting Local Food Banks",
+        "category": "Food",
+        "category_bg": "#f39c12",
+        "description": "Your donation helps provide food for families in need in our community.",
+        "price": 25.00
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/m4BTz62/Rectangle-4284.png",
+        "large_picture": "https://i.ibb.co/tDj2nw9/Health.png",
+        "title": "Healthcare for Underprivileged Children",
+        "category": "Health",
+        "category_bg": "#e74c3c",
+        "description": "Contribute to medical care and vaccinations for disadvantaged kids.",
+        "price": 50.00
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/yybwjsw/Rectangle-4287-1.png",
+        "large_picture": "https://i.ibb.co/cyBK7Fs/Education.png",
+        "title": "Scholarships for Student Education",
+        "category": "Education",
+        "category_bg": "#3498db",
+        "description": "Support the dreams of deserving students by funding their education.",
+        "price": 100.00
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/pdjtNPV/Rectangle-4287.png",
+        "large_picture": "https://i.ibb.co/jy92rLQ/Rectangle-4288.png",
+        "title": "Warm Winter Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#27ae60",
+        "description": "Help provide warm clothing to individuals facing the cold winter months.",
+        "price": 20.00
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/QQSrVKK/Rectangle-4287-2.png",
+        "large_picture": "https://i.ibb.co/FWw0T0w/Food.png",
+        "title": "Emergency Food Relief Fund",
+        "category": "Food",
+        "category_bg": "#f39c12",
+        "description": "Your contribution aids in feeding families affected by disasters.",
+        "price": 30.00
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/m4BTz62/Rectangle-4284.png",
+        "large_picture": "https://i.ibb.co/tDj2nw9/Health.png",
+        "title": "Healthcare Access for the Elderly",
+        "category": "Health",
+        "category_bg": "#e74c3c",
+        "description": "Support medical services for senior citizens in our community.",
+        "price": 40.00
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/yybwjsw/Rectangle-4287-1.png",
+        "large_picture": "https://i.ibb.co/cyBK7Fs/Education.png",
+        "title": "Educational Resources for Rural Schools",
+        "category": "Education",
+        "category_bg": "#3498db",
+        "description": "Help provide books, computers, and supplies to rural schools.",
+        "price": 60.00
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/pdjtNPV/Rectangle-4287.png",
+        "large_picture": "https://i.ibb.co/jy92rLQ/Rectangle-4288.png",
+        "title": "Clothing for Homeless Veterans",
+        "category": "Clothing",
+        "category_bg": "#27ae60",
+        "description": "Assist homeless veterans by providing them with clothing and essentials.",
+        "price": 25.00
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/QQSrVKK/Rectangle-4287-2.png",
+        "large_picture": "https://i.ibb.co/FWw0T0w/Food.png",
+        "title": "Meals for Low-Income Seniors",
+        "category": "Food",
+        "category_bg": "#f39c12",
+        "description": "Your donation ensures regular meals for seniors on a fixed income.",
+        "price": 35.00
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/m4BTz62/Rectangle-4284.png",
+        "large_picture": "https://i.ibb.co/tDj2nw9/Health.png",
+        "title": "Healthcare for Maternal and Child Health",
+        "category": "Health",
+        "category_bg": "#e74c3c",
+        "description": "Support access to prenatal and pediatric healthcare services.",
+        "price": 55.00
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/yybwjsw/Rectangle-4287-1.png",
+        "large_picture": "https://i.ibb.co/cyBK7Fs/Education.png",
+        "title": "Educational Scholarships for Girls",
+        "category": "Education",
+        "category_bg": "#3498db",
+        "description": "Empower girls through education by providing scholarships.",
+        "price": 75.00
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/pdjtNPV/Rectangle-4287.png",
+        "large_picture": "https://i.ibb.co/jy92rLQ/Rectangle-4288.png",
+        "title": "Warm Blankets for the Homeless",
+        "category": "Clothing",
+        "category_bg": "#27ae60",
+        "description": "Help keep the homeless warm during cold nights with blankets.",
+        "price": 15.00
+    }
+]
+
+
+
+
+
+
