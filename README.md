@@ -1,4 +1,4 @@
-# Donation Website
+# Donation Campaign
 
 ## Overview
 This is a donation website that enables users to make donations to various causes and view statistics related to their donations. The website provides an intuitive user interface and several interactive features to enhance the donation experience.
