@@ -12,7 +12,7 @@ const Home = () => {
             <Banner setDonations={setDonations}></Banner>
             </section>
 
-            <section  className="max-w-6xl mx-auto my-20">
+            <section  className="max-w-[350px] md:max-w-2xl lg:max-w-6xl mx-auto my-10 md:my-20">
                 <DonationContainer donations={donations} from={'home'}></DonationContainer>
             </section>
         </>

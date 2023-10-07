@@ -41,7 +41,7 @@ const Statistics = () => {
 
     return (
         <section
-            className=" content-box mx-auto mt-5 "
+            className=" content-box mx-auto mt-5"
         >
             <div style={{ width: "100%", height: "400px" }}>
                 <ResponsiveContainer>
@@ -66,9 +66,9 @@ const Statistics = () => {
                     </PieChart>
                 </ResponsiveContainer>
             </div>
-            <div className="flex justify-center font-bold text-xl items-center gap-10 mt-8">
+            <div className="flex flex-col md:flex-row justify-center font-bold text-xl items-center gap-5 md:gap-10 mt-8">
                 <h1 className="bg-[#00C49F] px-20 text-white rounded-lg">Your Donation</h1>               
-                <h1 className="bg-[#FF444A] px-20 text-white rounded-lg">Total donation</h1>
+                <h1 className="bg-[#FF444A] px-20 text-white rounded-lg">Total Donation</h1>
                 <hr />
             </div>
         </section>

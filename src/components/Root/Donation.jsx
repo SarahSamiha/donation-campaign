@@ -39,10 +39,10 @@ const Donation = ({ donation, from }) => {
             <Link
                 to={`/${id}`}
                 style={{ backgroundColor: category_bg + "20" }}
-                className="card shadow-xl flex-row"
+                className="card shadow-xl lg:flex-row"
             >
                 <figure>
-                    <img src={picture} alt="Picture" className="h-full" />
+                    <img src={picture} alt="Picture" className="h-full w-full" />
                 </figure>
 
                 <div className="card-body flex-1">
@@ -58,7 +58,7 @@ const Donation = ({ donation, from }) => {
                     <h2 style={{ color: category_bg }} className='font-semibold'>${(price.toFixed(2))}</h2>
 
                     <button style={{ backgroundColor: category_bg }}
-                        className="btn text-white w-1/2 p-1">
+                        className="btn text-white w-full lg:w-1/2 p-1">
                         View Details
                     </button>
 

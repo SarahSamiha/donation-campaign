@@ -36,7 +36,7 @@ const Banner = ({ setDonations }) => {
                 <div className="hero-overlay bg-white bg-opacity-80 "></div>
                 <div className="hero-content text-center ">
                     <div className="max-w-9/12">
-                        <h1 className="mb-5 text-5xl font-bold">
+                        <h1 className="mb-5 text-5xl md:text-4xl lg:text-5xl font-bold">
                             I Grow By Helping People In Need
                         </h1>
 
