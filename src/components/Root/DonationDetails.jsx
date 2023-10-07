@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import ErrorPage from "../ErrorPage";
 
 
@@ -7,7 +8,7 @@ const DonationDetails = () => {
     const { id } = useParams();
     const donations = useLoaderData();
     const donation = donations.find(item => item.id == id);
-    const {large_picture, title, category_bg, description, price } = donation;
+    const { large_picture, title, category_bg, description, price } = donation;
 
     const handleAdd = () => {
 
@@ -15,12 +16,12 @@ const DonationDetails = () => {
 
         const findData = mySavedArray.find(item => item.id == donation.id);
         if (findData) {
-            toast.error("You have already donated");
+            toast('You have already donated');
         } else {
             mySavedArray.push(donation);
 
             localStorage.setItem("myDonations", JSON.stringify(mySavedArray));
-            toast.success("Donation Successful");
+            toast('Donation Successful');
         }
     };
 
@@ -28,37 +29,37 @@ const DonationDetails = () => {
         return (
             <>
                 <section className="content-box max-w-6xl mx-auto my-20">
-                    <div className="relative">
+                    <div className="relative rounded-xl">
                         <img
                             src={large_picture}
-                            className="w-full h-[450px] object-cover"
+                            className="w-full h-[450px] object-cover rounded-xl"
                             alt=""
                         />
-                        <div className="button absolute bottom-0 p-10 bg-opacity-60  bg-stone-700 w-full">
+                        <div className="button absolute bottom-0 p-10 bg-opacity-70  bg-black w-full border-none rounded-xl rounded-t-none">
                             <button
                                 onClick={handleAdd}
                                 style={{ backgroundColor: category_bg }}
                                 className="btn text-white"
                             >
-                                Donate{price}
+                                Donate ${price}
                             </button>
                         </div>
                     </div>
 
                     <div
-                        style={{ backgroundColor: category_bg + "25" }}
-                        className="p-5 rounded-lg flex flex-col justify-between"
+                        className="rounded-lg flex flex-col justify-between "
                     >
-                        <div className="flex justify-between items-center">
-                            <h2 style={{ color: category_bg }} className="card-title">
-                                Dish Name : {title}
+                        <div className="flex justify-between items-center my-5">
+                            <h2 className="card-title font-bold text-4xl">
+                                {title}
                             </h2>
                         </div>
 
-                        <p className=" text-lg">
+                        <p className=" text-base text-gray-600 font-normal  text-justify">
                             {description}
                         </p>
                     </div>
+                    <ToastContainer />
                 </section>
             </>
         );

@@ -13,7 +13,7 @@ const ErrorPage = () => {
                     {error?.data?.length ? error.data : "No Data Found"}
                 </h1>
 
-                <Link to="/" className="btn btn-primary bg-[#FF444A] border-none text-white">
+                <Link to="/" className="btn  bg-[#FF444A] hover:bg-red-400 border-none text-white">
                     Go to Home
                 </Link>
             </div>
